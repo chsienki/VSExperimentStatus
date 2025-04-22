@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="VSExperimentStatus">
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="VSExperimentStatus" value="{3d5b0bfa-b9b7-4429-852e-65c1b1743183}" />
+    <GuidSymbol name="UIProvider" value="{B7C47946-8A7C-42C9-9FFF-466A57CB4DC3}" />
+    <GuidSymbol name="UIButton" value="{D0C6A713-6562-45FE-A6E2-C1F01763D4F5}" />
+  </Symbols>
+
+</CommandTable>
